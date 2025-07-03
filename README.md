@@ -22,6 +22,23 @@ A simple ATM (Automated Teller Machine) simulation program written in C. This pr
 
 ---
 
+## Prerequisites
+
+### Windows
+
+- C compiler (such as GCC in MinGW or MSVC)
+- [Optional] Git (for cloning the repository)
+- Supports `windows.h` and `conio.h` natively
+
+### Linux
+
+- GCC or compatible C compiler
+- [Optional] Git (for cloning the repository)
+- You may need to remove or replace Windows-specific headers and functions (`windows.h`, `conio.h`, `system("cls")`, etc.) for compatibility
+- For screen clearing, replace `system("cls")` with `system("clear")` or remove it
+
+---
+
 ## Getting Started
 
 ### Clone the Repository
@@ -32,15 +49,6 @@ You can clone this project using the following command:
 git clone https://github.com/HoomanMoradnia/ATM.git
 cd ATM
 ```
-
-### Prerequisites
-
-- **Windows**: 
-  - C compiler (such as GCC in MinGW or MSVC)
-  - Supports `windows.h` and `conio.h` natively
-- **Linux**: 
-  - GCC or compatible C compiler
-  - You may need to remove or replace Windows-specific headers and functions (`windows.h`, `conio.h`, `system("cls")`, etc.) for compatibility
 
 ### Compilation
 
